@@ -1,0 +1,38 @@
+.header {
+  height: 100vh;
+}
+
+.nav-bar {
+  display: flex;
+  column-gap: 1%;
+  height: 75px;
+}
+
+.logo {
+  height: 75px;
+  width: 193px;
+  background-image: url("logo.png");
+  background-size: cover;
+}
+
+.menu {
+  height: 75px;
+  width: 100%;
+}
+
+.presentation {
+  display: flex;
+  height: 700px;
+}
+
+.presentation-text {
+  height: 75px;
+  width: 90%;
+}
+
+.presentation-image {
+  background-image: url(user.png);
+  background-size: cover;
+  width: 309px;
+  height: 314px;
+}
