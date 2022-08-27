@@ -1,3 +1,6 @@
+body {
+  margin: 3%;
+}
 .header {
   height: 100vh;
 }
@@ -5,34 +8,47 @@
 .nav-bar {
   display: flex;
   column-gap: 1%;
-  height: 75px;
+  height: 9vh;
 }
 
 .logo {
-  height: 75px;
-  width: 193px;
-  background-image: url("logo.png");
-  background-size: cover;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l-image {
+  width: 12vh;
 }
 
 .menu {
-  height: 75px;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  width: 186vh;
+  justify-content: center;
+  column-gap: 10vh;
 }
 
 .presentation {
   display: flex;
-  height: 700px;
+  height: 81vh;
 }
 
 .presentation-text {
-  height: 75px;
-  width: 90%;
+  width: 50%;
+  text-align: left;
+  margin-top: 10vh;
+  margin-left: 10vh;
 }
 
 .presentation-image {
-  background-image: url(user.png);
-  background-size: cover;
-  width: 309px;
-  height: 314px;
+  display: flex;
+  align-items: center;
+  width: 100vh;
+  justify-content: center;
+}
+
+.p-image {
+  width: 15vw;
 }
