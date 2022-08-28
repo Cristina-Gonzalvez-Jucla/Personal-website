@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 280%;
 }
+
+/* eader */
+
 .header {
   height: 100vh;
 }
@@ -36,7 +39,7 @@ h1 {
 
 .presentation {
   display: flex;
-  height: 81vh;
+  height: 85vh;
 }
 
 .presentation-text {
@@ -56,16 +59,47 @@ h1 {
 .p-image {
   width: 15vw;
 }
+
+/* Services */
+
 .squares {
   margin-bottom: 3vh;
   column-gap: 7vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 .square {
   border-radius: 2rem;
   height: 45vh;
   width: 26vw;
   background-color: #555;
+}
+
+/* Portfolio */
+
+.recent-projects-title {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.small-square {
+  border-radius: 2rem;
+  height: 30vh;
+  width: 14vw;
+  background-color: #888888;
+}
+
+.smallest-square {
+  border-radius: 2rem;
+  height: 20vh;
+  width: 10vw;
+  background-color: #a0a0a0;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 2%;
 }
