@@ -10,7 +10,6 @@ h1 {
 
 .header {
   height: 100vh;
-  background-color: blue;
 }
 
 .nav-bar {
@@ -39,7 +38,6 @@ h1 {
 }
 
 .presentation {
-  background-color: red;
   display: flex;
   height: 85vh;
 }
@@ -64,10 +62,6 @@ h1 {
 
 /* Services */
 
-.services {
-  background-color: blue;
-}
-
 .squares {
   margin-bottom: 3vh;
   column-gap: 7vh;
@@ -84,10 +78,6 @@ h1 {
 }
 
 /* Portfolio */
-
-.portfolio {
-  background-color: red;
-}
 
 .recent-projects-title {
   text-align: center;
