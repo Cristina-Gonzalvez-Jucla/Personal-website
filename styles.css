@@ -6,7 +6,7 @@ h1 {
   font-size: 280%;
 }
 
-/* eader */
+/* Header */
 
 .header {
   height: 100vh;
@@ -102,4 +102,32 @@ h1 {
   display: flex;
   justify-content: center;
   column-gap: 2%;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 10vh;
+}
+
+.footer-boxes {
+  display: flex;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-box {
+  display: flex;
+  text-align: center;
+  width: 15vw;
+  height: 35vh;
+  background-color: #a0a0a0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 5vw;
 }
