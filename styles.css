@@ -1,3 +1,18 @@
+:root {
+  --text-color: #ffffff;
+  --background: #3c96c9;
+  --primary: #1b2129;
+}
+
+@font-face {
+  font-family: "Titillium";
+  src: url(TitilliumWeb-Regular.ttf);
+}
+body {
+  margin: 3%;
+  font-family: "Titillium";
+}
+
 body {
   margin: 3%;
 }
