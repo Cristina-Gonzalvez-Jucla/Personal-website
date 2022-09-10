@@ -3,6 +3,9 @@
   --primary: #3c96c9;
   --background: #1b2129;
 }
+.primary {
+  color: var(--primary);
+}
 
 @font-face {
   font-family: "Titillium";
@@ -11,6 +14,7 @@
 body {
   margin: 3%;
   font-family: "Titillium";
+  background-color: var(--background);
 }
 
 body {
@@ -26,7 +30,6 @@ h1 {
 .header {
   height: 100vh;
   color: var(--text-color);
-  background-color: var(--background);
 }
 
 .nav-bar {
@@ -64,8 +67,7 @@ h1 {
   color: var(--text-color);
 }
 
-button.element-1:hover,
-button.element-1:active {
+.active {
   color: var(--primary);
 }
 
@@ -85,9 +87,6 @@ button.element-1:active {
   column-gap: 2%;
 }
 
-.Im {
-  color: var(--primary);
-}
 .my-name {
   color: var(--primary);
   margin-top: -6%;
@@ -99,9 +98,6 @@ button.element-1:active {
 
 .btn-lets-talk {
   display: flex;
-  align-items: center;
-  font-family: inherit;
-  font-weight: 500;
   font-size: 16px;
   padding: 0.3em 1em 0.3em 1em;
   color: white;
