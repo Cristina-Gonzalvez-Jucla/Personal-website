@@ -1,7 +1,7 @@
 :root {
   --text-color: #ffffff;
-  --background: #3c96c9;
-  --primary: #1b2129;
+  --primary: #3c96c9;
+  --background: #1b2129;
 }
 
 @font-face {
@@ -25,6 +25,8 @@ h1 {
 
 .header {
   height: 100vh;
+  color: var(--text-color);
+  background-color: var(--background);
 }
 
 .nav-bar {
@@ -52,6 +54,21 @@ h1 {
   column-gap: 10vh;
 }
 
+.menu-element {
+  background-color: transparent;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: var(--text-color);
+}
+
+button.element-1:hover,
+button.element-1:active {
+  color: var(--primary);
+}
+
 .presentation {
   display: flex;
   height: 85vh;
@@ -62,6 +79,37 @@ h1 {
   text-align: left;
   margin-top: 10vh;
   margin-left: 10vh;
+}
+.presentation-text-1 {
+  display: flex;
+  column-gap: 2%;
+}
+
+.Im {
+  color: var(--primary);
+}
+.my-name {
+  color: var(--primary);
+  margin-top: -6%;
+}
+
+.what-i-do {
+  margin-top: -6%;
+}
+
+.btn-lets-talk {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.3em 1em 0.3em 1em;
+  color: white;
+  background-color: var(--primary);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em var(--primary);
+  border-radius: 0.5em;
+  cursor: pointer;
 }
 
 .presentation-image {
